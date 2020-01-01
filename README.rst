@@ -1,6 +1,7 @@
 jsound
 =========
 *Pure Python, Linux-only, single function module with no dependencies for playing sounds.*
+Forked from https://github.com/TaylorSMarks/playsound, name changed to reflect the abandonment of cross-platform.
 
 Installation
 ------------
