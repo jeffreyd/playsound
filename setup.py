@@ -8,13 +8,13 @@ here = abspath(dirname(getsource(lambda:0)))
 with open(join(here, 'README.rst'), encoding='utf-8') as f:
     long_description = f.read()
 
-setup(name             = 'playsound',
-      version          = '1.2.1',
+setup(name             = 'jsound',
+      version          = '1.2.2',
       description      = long_description.splitlines()[2][1:-1],
       long_description = long_description,
-      url              = 'https://github.com/TaylorSMarks/playsound',
-      author           = 'Taylor Marks',
-      author_email     = 'taylor@marksfam.com',
+      url              = 'https://github.com/jeffreyd/playsound',
+      author           = 'jeffrey d johnson',
+      author_email     = 'jeffreyd@jeffreyd.org',
       license          = 'MIT',
       classifiers      = ['Development Status :: 5 - Production/Stable',
                           'Intended Audience :: Developers',
@@ -36,4 +36,4 @@ setup(name             = 'playsound',
                           'Topic :: Multimedia :: Sound/Audio :: Players',
                           'Topic :: Multimedia :: Sound/Audio :: Players :: MP3'],
       keywords         = 'sound playsound music wave wav mp3 media song play audio',
-      py_modules       = ['playsound'])
+      py_modules       = ['jsound'])
